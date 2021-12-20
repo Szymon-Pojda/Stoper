@@ -1,8 +1,11 @@
+import React from "react";
+
 const App = () => {
   return (
-    <div>
-      <Hero />
-      <SearchForm />
+    <div className="App">
+      <StopWatch />
     </div>
   );
 };
+
+export default App;
